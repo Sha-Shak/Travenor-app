@@ -4,6 +4,7 @@ type InputProps = {
   placeholder: string;
   value?: string;
   onChangeAction: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  className: string;
 };
 
 const CustomInput: React.FC<InputProps> = ({
@@ -11,6 +12,7 @@ const CustomInput: React.FC<InputProps> = ({
   placeholder,
   value,
   onChangeAction,
+  className,
 }: InputProps) => {
   return (
     <input
@@ -18,6 +20,7 @@ const CustomInput: React.FC<InputProps> = ({
       placeholder={placeholder}
       onChange={onChangeAction}
       value={value}
+      className={className}
     />
   );
 };

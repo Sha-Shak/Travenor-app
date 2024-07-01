@@ -12,6 +12,7 @@ function App() {
         inputType="text"
         placeholder="Email here..."
         onChangeAction={handleChange}
+        className="border-b hover:border-dotted"
       />
     </>
   );
