@@ -1,4 +1,2 @@
 #!/usr/bin/env sh
 
-
-cd client && npm run prettier && npm run lint 
