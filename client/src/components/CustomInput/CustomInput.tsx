@@ -1,6 +1,6 @@
 import React from 'react';
 type InputProps = {
-  inputType: string;
+  type: string;
   placeholder: string;
   value?: string;
   onChangeAction: (e: React.ChangeEvent<HTMLInputElement>) => void;
@@ -8,7 +8,7 @@ type InputProps = {
 };
 
 const CustomInput: React.FC<InputProps> = ({
-  inputType,
+  type,
   placeholder,
   value,
   onChangeAction,
@@ -16,7 +16,7 @@ const CustomInput: React.FC<InputProps> = ({
 }: InputProps) => {
   return (
     <input
-      type={inputType}
+      type={type}
       placeholder={placeholder}
       onChange={onChangeAction}
       value={value}

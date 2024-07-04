@@ -5,7 +5,6 @@ import { CgSearch } from 'react-icons/cg';
 import { FiUser } from 'react-icons/fi';
 import { RiHome3Line } from 'react-icons/ri';
 import { RxCalendar } from 'react-icons/rx';
-import './index.css';
 
 const Bottombar: React.FC = () => {
   return (
